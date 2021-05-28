@@ -5,7 +5,7 @@
 
 # Set up of Italian Social Republic
 country_event = {
-	id = ww2_germany.33
+	id = ww2_germany.33 
 	title = ww2_germany.33.t
 	desc = ww2_germany.33.d
 	picture = GFX_report_event_italian_social_republic
@@ -54,7 +54,10 @@ country_event = {
 				}
 			}
 			#	load_oob = "ITR_1944"
-			declare_war_on = CRO
+			declare_war_on = { 	
+				target = CRO
+				type = annex_everything
+			}
 		}
 		news_event = {
 			hours = 6
