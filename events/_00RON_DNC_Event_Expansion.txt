@@ -795,10 +795,11 @@ country_event = {
 		
 		add_war_support = 0.05
 		
-		news_event = {
-			id = DNC_Expansion_news.14
-			hours = 6
-		}
+		#there is a seperate news event with seperate triggers, no need to fire it here
+		# news_event = {
+		# 	id = DNC_Expansion_news.14
+		# 	hours = 6
+		# }
 	}
 }
 
