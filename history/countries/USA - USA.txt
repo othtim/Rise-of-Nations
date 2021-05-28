@@ -219,7 +219,7 @@ if = {
 		}
 		skill = 1
 	}
-	create_corps_commander = {
+	create_field_marshal = {
 		name = "John Pershing"
 		picture = "WW1/General_John_pershing.dds"
 		traits = {
